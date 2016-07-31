@@ -1,7 +1,7 @@
 'use strict';
 var gutil = require('gulp-util');
 var through = require('through2');
-var urlTobase64 = require('./url-to-base64');
+var urlTobase64 = require('./lib/url-to-base64');
 
 module.exports = function (opts) {
 	opts = opts || {};
@@ -23,7 +23,7 @@ module.exports = function (opts) {
 		} catch (err) {
 			this.emit('error', new gutil.PluginError('gulp-base64-img', err));
 		}
-		
+
 		cb();
 	});
 };
