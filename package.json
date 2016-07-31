@@ -1,0 +1,33 @@
+{
+  "name": "gulp-base64-img",
+  "version": "0.0.0",
+  "description": "A gulp plugin for encoding images to base64",
+  "license": "MIT",
+  "repository": "vandeurenglenn/gulp-base64-img",
+  "author": {
+    "name": "Glenn Vandeuren",
+    "email": "vandeurenglenn@gmail.com",
+    "url": "github.com/vandeurenglenn"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "base64-img": "^1.0.3",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "xo": "^0.14.0"
+  }
+}
