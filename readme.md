@@ -9,7 +9,7 @@ Encodes images to base64 using [base64-img](https://github.com/douzi8/base64-img
 ## Install
 
 ```
-$ npm install --save-dev gulp-base64img
+$ npm install --save-dev gulp-base64-img
 ```
 
 
@@ -17,7 +17,7 @@ $ npm install --save-dev gulp-base64img
 
 ```js
 const gulp = require('gulp');
-const base64img = require('gulp-base64img');
+const base64img = require('gulp-base64-img');
 
 gulp.task('default', () => {
 	gulp.src('src/file.ext')
@@ -30,7 +30,7 @@ gulp.task('default', () => {
 ```js
 const gulp = require('gulp');
 const append = require('gulp-append');
-const base64img = require('gulp-base64img');
+const base64img = require('gulp-base64-img');
 const nameFromPath = require('name-from-path');
 
 gulp.task('default', () => {
